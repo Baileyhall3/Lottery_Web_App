@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="title">
+  Welcome, {{ firstname }}
+</h1>
+    <p><b>Account Details</b></p>
+    <ul>
+    <li>Account number: {{ acc_no }}</li>
+    <li>Email: {{ email }}</li>
+    <li>First name: {{ firstname }}</li>
+    <li>Last name: {{ lastname }}</li>
+    <li>Phone number: {{ phone }}</li>
+    </ul>
+
+
+{% endblock %}
